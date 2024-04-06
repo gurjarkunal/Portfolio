@@ -4,7 +4,7 @@ import {
   creator,
   web,
   javascript,
-  typescript,
+  java,
   html,
   css,
   reactjs,
@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   meta,
+  sql,
   starbucks,
   tesla,
   shopify,
@@ -23,6 +24,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  feed,
+  chatgpt
 } from "../assets";
 
 export const navLinks = [
@@ -69,12 +72,16 @@ const technologies = [
     icon: css,
   },
   {
+    name: "java",
+    icon: java,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "sql",
+    icon: sql,
   },
   {
     name: "React JS",
@@ -103,14 +110,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -198,33 +197,41 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "PinCraft",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Imagine a treasure trove of ideas, all waiting to spark your creativity. PinCraft, like Pinterest, is your visual playground. Explore millions of pins on countless topics, from delicious recipes and travel hacks to DIY projects and the latest fashion trends.Curate your own collections by creating boards for all your favorite pins. Share your discoveries and ignite inspiration in others. PinCraft connects you with a vibrant community who share your passions. Let PinCraft be your springboard to new ideas, hobbies, and endless creativity. Start crafting your inspiration today!",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: feed,
+    source_code_link: "https://github.com/gurjarkunal/PinCraft.git",
   },
   {
-    name: "Job IT",
+    name: "AnswerGenius",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Meet AnswerGenius, your friendly neighborhood answer machine!  Ever felt overwhelmed by the vast amount of information online? Struggled to find reliable answers to your questions? AnswerGenius is here to simplify your search. Powered by OpenAI, AnswerGenius leverages cutting-edge technology to provide comprehensive answers to your queries. No more sifting through endless search results or questionable sources. Simply ask AnswerGenius your question, and it will tap into a network of reliable OpenAI resources to deliver insightful and informative answers. Think of AnswerGenius as your personal research assistant, ready to tackle any question you throw its way. So, ditch the information overload and let AnswerGenius be your guide to knowledge!",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
@@ -232,34 +239,42 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "green-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: chatgpt,
+    source_code_link: "https://github.com/gurjarkunal/AnswerGenius.git",
   },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
